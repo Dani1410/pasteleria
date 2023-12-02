@@ -1,0 +1,110 @@
+.container__general {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title__details h3 {
+  font-size: 3em;
+}
+
+.information__details {
+  display: flex;
+}
+
+.recoger__tienda {
+  display: flex;
+  flex-direction: column;
+}
+
+.recoger__tienda h5 {
+  font-size: 1.8em;
+  padding-bottom: 10px;
+}
+
+.envio__tienda {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.envio__tienda p {
+  font-size: 1.8em;
+}
+
+.extra__datails {
+  flex: 2;
+}
+
+.general__information {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.general__information h5 {
+  font-size: 2em;
+}
+
+.listado__productos,
+.body__listado,
+.text__envio,
+.text__total {
+  display: flex;
+  gap: 30px;
+  font-size: 1.3em;
+}
+
+.title__listado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.body__listado {
+  display: flex;
+  justify-content: space-between; /* Espaciado horizontal */
+  align-items: center;
+  height: 70px;
+}
+
+.listado__productos {
+  display: flex;
+  flex-direction: column;
+}
+
+.text__envio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text__total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tipo__pago p {
+  font-size: 1.2em;
+}
+
+.btn__finalizar__compra {
+  background-color: #007bff; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 16px;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  width: 150px;
+}
+
+.btn__finalizar__compra:hover {
+  background-color: #0056b3; 
+}
+
+.btn__finalizar__compra:focus {
+  outline: none;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 2.4em;
+}
+
+.text__folio {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5em;
+}
+
+.text {
+  font-size: 1.3em;
+}
+
+.btn {
+  background-color: #3498db; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 10px 20px; /* Espacio interno */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+  font-size: 16px; /* Tamaño del texto */
+}
+
+/* Cambiar el estilo al pasar el mouse */
+.btn:hover {
+  background-color: #2980b9; /* Cambiar el color de fondo en el hover */
+}

@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: none;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+button:focus {
+  border-color: #007bff;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.switch {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.switch a {
+  text-decoration: none;
+  color: #007bff;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.switch a:hover {
+  color: #0056b3;
+}
+
+/* Estilos adicionales para el formulario */
+.container {
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+/* Estilos para el enlace "Términos y Condiciones" */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="password"] {
+  width: 85%; /* Reducimos el ancho del input de contraseña */
+  border-radius: 3px 0 0 3px; /* Estilo de borde redondeado a la izquierda */
+}
+
+i.fas {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-left: none; /* Quitamos el borde izquierdo */
+  border-radius: 0 3px 3px 0; /* Estilo de borde redondeado a la derecha */
+}

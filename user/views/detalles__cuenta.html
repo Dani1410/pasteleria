@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuenta</title>
+    <link rel="stylesheet" href="../css/estilos__detalle_cuenta.css" />
+  </head>
+  <body>
+    <section class="container">
+      <aside class="opciones">
+        <header class="user"><h3>Nombre Usuario</h3></header>
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="btn-general" class="boton-menu botones active">
+                General
+              </button>
+            </li>
+            <li>
+              <button id="btn-direcciones" class="boton-menu botones">
+                Direcciones
+              </button>
+            </li>
+          </ul>
+        </nav>
+        <footer>
+          <p class="boton-regresar"><button onclick="backHome()">Regresar</button></p>
+        </footer>
+      </aside>
+      <main class="window-general">
+        <section id="info-general" class="general active">
+          <article class="information">
+            <label for="">Nombre</label>
+            <label for="">Apellidos</label>
+            <input type="text" />
+            <input type="text" />
+            <label for="">User</label>
+            <label for="">Correo</label>
+            <input type="text" />
+            <input type="text" />
+          </article>
+          <article class="cambio__contraseña">
+            <article class="password__actual">
+              <label for="">Actual</label> <input type="text" />
+            </article>
+            <article class="password__cambio">
+              <label for="">Nueva</label><label for="">Confirmacion</label>
+              <input type="text" /><input type="text" />
+            </article>
+          </article>
+          <article id="btnG">
+            <button class="btn-guardar">Guardar</button>
+          </article>
+        </section>
+        <section id="info-direcciones" class="direcciones">
+          <article class="cabezera-direcciones">
+            <ul>
+              <li class="direcciones-item">
+                <p>Alias</p>
+                <button id="btnEditarDireccion">...</button>
+                <button id="btnBorrarDireccion">Delete</button>
+              </li>
+
+              <li class="direcciones-item">
+                <p>Alias</p>
+                <button id="btnEditarDireccion">...</button>
+                <button id="btnBorrarDireccion">Delete</button>
+              </li>
+            </ul>
+          </article>
+          <article id="btnag">
+            <button class="btnAgregarDireccion">+</button>
+          </article>
+        </section>
+      </main>
+    </section>
+
+    <script src="../js/script__cuenta.js"></script>
+  </body>
+</html>
