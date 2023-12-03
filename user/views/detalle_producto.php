@@ -43,7 +43,7 @@ while ($mostrar = mysqli_fetch_array($catalogo_productos)) {
 
 <body>
   <!-- HEADER -->
-  <header class="nav__header">
+  <header id="header" class="nav__header">
     <ul>
         <li class="menu__logo">
             <a href="./index.php"></a>
@@ -59,7 +59,10 @@ while ($mostrar = mysqli_fetch_array($catalogo_productos)) {
                     </form>
                 </li>
                 <li class="menu__carrito">
-                    <a href="./carrito_compras.php"> <i class="fa-solid fa-cart-shopping"></i> </a>
+
+                    <i class="carrito fa-solid fa-cart-shopping"></i>
+                    <section id="numero"></section>
+
                 </li>
                 <li class="menu__cuenta__horizontal">
                     <a href="#">User</a>
@@ -75,6 +78,16 @@ while ($mostrar = mysqli_fetch_array($catalogo_productos)) {
         </li>
     </ul>
 </header>
+
+<section id="contenedorCompra">
+  <article class="informacionCompra" id="informacionCompra">
+    <h3>Cesta</h3>
+    <p class="x" id="x">x</p>
+  </article>
+  <article class="productosCompra" id="productosCompra"></article>
+  <article class="total" id="total"></article>
+  <button>Finalizar Compra</button>
+</section>
 
   <!--  -->
   <article class="container__title">

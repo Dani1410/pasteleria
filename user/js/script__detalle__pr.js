@@ -31,3 +31,4 @@ const contentDescription = document.querySelector(".text__description");
 toggleDescription.addEventListener("click", () => {
   contentDescription.classList.toggle("hidden");
 });
+
